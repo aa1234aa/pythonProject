@@ -1,0 +1,18 @@
+[
+   { "desc": "登陆成功",
+     "username": "admin",
+     "password": "bitnei",
+     "status code": 200,
+     "status": 1,
+     "msg": "登录成功"
+    },
+   { "desc": "账号不存在",
+     "username": "ccc",
+     "password": "bitnei",
+     "status code": 200,
+     "status": -2,
+     "msg": "账号不存在"
+    }
+
+]
+
