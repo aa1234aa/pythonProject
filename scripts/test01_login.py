@@ -4,9 +4,11 @@ from api.login import LoginAPI
 import json
 import app
 from parameterized import parameterized
+# json 参数化
 def build_data():
 	test_data=[]
 	file= app.BASE_DIR+"/data/aa.json"
+	print(file)
 	with open(file,encoding="utf-8") as f:
 		json_data=json.load(f)
 		for case in json_data:

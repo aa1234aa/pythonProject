@@ -6,6 +6,7 @@ import app
 from parameterized import parameterized
 from tools.dbutil import DBUtil
 
+# 数据库参数化
 def build_data():
 	test_data = []
 	sql="select * from t_login"
